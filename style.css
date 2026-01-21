@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Paleta de colores oscuros con glassmorphism mejorado */
+/* Paleta de colores oscuros con gris y azul marino */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #121212, #1a1a1a);
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a); /* Gris muy oscuro */
     color: #e0e0e0;
     line-height: 1.6;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(123, 31, 162, 0.1) 1px, transparent 1px);
+    background: radial-gradient(circle, rgba(0, 51, 102, 0.1) 1px, transparent 1px); /* Azul marino sutil */
     background-size: 50px 50px;
     z-index: -1;
     animation: float 20s infinite linear;
@@ -33,7 +33,7 @@ body {
 }
 
 .glass {
-    background: rgba(30, 30, 30, 0.85);
+    background: rgba(26, 26, 26, 0.85); /* Gris oscuro translúcido */
     backdrop-filter: blur(20px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -68,7 +68,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #7b1fa2;
+    color: #003366; /* Azul marino oscuro */
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -93,7 +93,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #7b1fa2;
+    color: #003366; /* Azul marino oscuro */
     transform: scale(1.1);
 }
 
@@ -111,7 +111,7 @@ nav {
     transition: 0.3s;
 }
 
-/* Secciones con centrado mejorado y tonos variados */
+/* Secciones con centrado mejorado y tonos variados en gris/azul */
 section {
     padding: 5rem 2rem;
     min-height: 100vh;
@@ -124,29 +124,29 @@ section {
 }
 
 section#inicio.hero {
-    background: linear-gradient(135deg, rgba(45, 45, 45, 0.9), rgba(30, 30, 30, 0.8));
+    background: linear-gradient(135deg, rgba(42, 42, 42, 0.9), rgba(26, 26, 26, 0.8)); /* Gris oscuro */
 }
 
 section#sobre-mi.about {
-    background: linear-gradient(135deg, rgba(35, 35, 35, 0.9), rgba(25, 25, 25, 0.8));
+    background: linear-gradient(135deg, rgba(32, 32, 32, 0.9), rgba(22, 22, 22, 0.8)); /* Gris más oscuro */
 }
 
 section#servicios.services {
-    background: linear-gradient(135deg, rgba(40, 40, 40, 0.9), rgba(28, 28, 28, 0.8));
+    background: linear-gradient(135deg, rgba(37, 37, 37, 0.9), rgba(27, 27, 27, 0.8)); /* Gris intermedio */
 }
 
 section#portafolio.portfolio {
-    background: linear-gradient(135deg, rgba(32, 32, 32, 0.9), rgba(22, 22, 22, 0.8));
+    background: linear-gradient(135deg, rgba(29, 29, 29, 0.9), rgba(19, 19, 19, 0.8)); /* Gris negro */
 }
 
 section#contacto.contact {
-    background: linear-gradient(135deg, rgba(38, 38, 38, 0.9), rgba(26, 26, 26, 0.8));
+    background: linear-gradient(135deg, rgba(35, 35, 35, 0.9), rgba(25, 25, 25, 0.8)); /* Gris azulado */
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #7b1fa2;
+    color: #003366; /* Azul marino oscuro */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,13 +162,13 @@ section#contacto.contact {
 }
 
 .btn {
-    background: linear-gradient(135deg, #7b1fa2, #5e0f8a);
-    color: #121212;
+    background: linear-gradient(135deg, #003366, #001122); /* Azul marino gradiente */
+    color: #e0e0e0; /* Texto claro para contraste */
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 15px;
     transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 6px 20px rgba(123, 31, 162, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.4); /* Sombra azul marino */
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -176,7 +176,7 @@ section#contacto.contact {
 
 .btn:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 10px 30px rgba(123, 31, 162, 0.6);
+    box-shadow: 0 10px 30px rgba(0, 51, 102, 0.6); /* Efecto LED azul marino */
 }
 
 .container {
@@ -211,7 +211,7 @@ section#contacto.contact {
 
 .service-icon {
     font-size: 2rem;
-    color: #7b1fa2;
+    color: #003366; /* Azul marino oscuro */
     margin-bottom: 1rem;
 }
 
@@ -241,13 +241,13 @@ section#contacto.contact {
 }
 
 .contact-btn {
-    background: linear-gradient(135deg, #7b1fa2, #5e0f8a);
-    color: #121212;
+    background: linear-gradient(135deg, #003366, #001122); /* Azul marino gradiente */
+    color: #e0e0e0; /* Texto claro */
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 15px;
     transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 6px 20px rgba(123, 31, 162, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.4); /* Sombra azul marino */
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -256,7 +256,7 @@ section#contacto.contact {
 
 .contact-btn:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 10px 30px rgba(123, 31, 162, 0.6);
+    box-shadow: 0 10px 30px rgba(0, 51, 102, 0.6); /* Efecto LED azul marino */
 }
 
 footer {
@@ -291,7 +291,7 @@ footer {
         top: 100%;
         left: 0;
         width: 100%;
-        background: rgba(30, 30, 30, 0.95);
+        background: rgba(26, 26, 26, 0.95); /* Gris oscuro */
         padding: 1rem;
         border-radius: 0 0 20px 20px;
     }
