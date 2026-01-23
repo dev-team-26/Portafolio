@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Portfolio</title>
+    <title>MA_DEV | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="particles"></div> <!-- Fondo de partículas -->
+    <div class="particles"></div> 
+
     <header class="glass">
         <nav>
-            <div class="logo"><i class="fas fa-code"></i>MA_DEV</div>
+            <div class="logo"><i class="fas fa-code"></i> MA_DEV</div>
             <ul class="nav-links">
                 <li><a href="#inicio"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#sobre-mi"><i class="fas fa-user"></i> About Me</a></li>
@@ -20,91 +21,88 @@
                 <li><a href="#contacto"><i class="fas fa-phone"></i> Contact</a></li>
             </ul>
             <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </div>
         </nav>
     </header>
 
-    <section id="inicio" class="hero glass fade-in">
-        <div class="hero-content">
-            <h1><i class="fas fa-rocket"></i> Welcome to My Portfolio</h1>
-            <p>Data Analyst & Software Developer dedicated to building efficient, scalable solutions. I specialize in full-lifecycle software development and strategic data visualization to drive business growth and operational excellence.</p>
-            <a href="#contacto" class="btn"><i class="fas fa-paper-plane"></i> Let's work together</a>
-        </div>
-    </section>
-
-    <section id="sobre-mi" class="about glass fade-in">
-        <div class="container">
-            <h2><i class="fas fa-info-circle"></i>About</h2>
-            <p>Information Systems Analysis and Development professional and Systems Engineering student. I possess solid technical experience in the software development lifecycle and advanced data analysis, specializing in design, programming, and database management using Python, JavaScript, PHP, and MySQL. My approach focuses on optimizing processes and generating strategic solutions through data science and agile methodologies. I am characterized by my responsibility, commitment, and organization, allowing me to collaborate effectively in result-oriented multidisciplinary teams. Additionally, in my free time, I enjoy playing soccer and listening to music.</p>
-        </div>
-    </section>
-
-    <section id="servicios" class="services glass fade-in">
-        <div class="container">
-            <h2><i class="fas fa-tools"></i> Mis Servicios</h2>
-            <div class="service-grid">
-                <div class="service-item glass">
-                    <i class="fas fa-palette service-icon"></i>
-                    <h3>[Servicio 1, ej: Diseño Web]</h3>
-                    <p>[Descripción, ej: Creo sitios web modernos y responsivos adaptados a tus necesidades.]</p>
-                </div>
-                <div class="service-item glass">
-                    <i class="fas fa-mobile-alt service-icon"></i>
-                    <h3>[Servicio 2, ej: Desarrollo de Apps]</h3>
-                    <p>[Descripción, ej: Desarrollo aplicaciones móviles intuitivas y funcionales.]</p>
-                </div>
-                <div class="service-item glass">
-                    <i class="fas fa-chart-line service-icon"></i>
-                    <h3>[Servicio 3, ej: Consultoría]</h3>
-                    <p>[Descripción, ej: Asesoramiento experto para optimizar tus procesos.]</p>
-                </div>
+    <section id="inicio" class="hero fade-in">
+        <div class="hero-wrapper">
+            <div class="hero-text">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Data Analyst & Software Developer dedicated to building efficient, scalable solutions. I specialize in full-lifecycle software development and strategic data visualization.</p>
+                <div class="spacer"></div>
+                <a href="#contacto" class="btn"><i class="fas fa-paper-plane"></i> Let's work together</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/IMG MA_DEV.png" alt="Developer Image">
             </div>
         </div>
     </section>
 
-    <section id="portafolio" class="portfolio glass fade-in">
+    <section id="sobre-mi" class="about-clean fade-in">
         <div class="container">
-            <h2><i class="fas fa-folder-open"></i> Portafolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item glass">
-                    <img src="[URL de imagen 1]" alt="Proyecto 1">
-                    <h3>[Nombre del Proyecto 1]</h3>
-                    <p>[Breve descripción del proyecto.]</p>
-                </div>
-                <div class="portfolio-item glass">
-                    <img src="[URL de imagen 2]" alt="Proyecto 2">
-                    <h3>[Nombre del Proyecto 2]</h3>
-                    <p>[Breve descripción del proyecto.]</p>
-                </div>
+            <h2>About Me</h2>
+            <p>Professional in Information Systems Analysis and Development and Systems Engineering student. I focus on optimizing processes through data science and agile methodologies. I possess solid technical experience specializing in Python, JavaScript, PHP, and MySQL.</p>
+        </div>
+    </section>
+
+    <section id="servicios" class="fade-in">
+        <h2 class="section-title"><i class="fas fa-tools"></i> My Services</h2>
+        <div class="service-grid">
+            <div class="service-item glass">
+                <h3><i class="fas fa-code service-icon"></i> Full-Stack Web Development</h3>
+                <p>"Building robust, end-to-end digital solutions." I design and develop modern, functional, and scalable web applications. My focus is not just on aesthetics, but on writing clean, efficient, and maintainable code.
+                    What I do: Interactive UI development, database management, and building solid architectures based on industry best practices.</p>
+            </div>
+            <div class="service-item glass">
+                <h3><i class="fas fa-chart-bar service-icon"></i> Business Intelligence & Dashboards</h3>
+                <p>"Turning your data into a competitive advantage." I help organizations stop guessing and start deciding. Drawing from my experience at ICBF, I transform large volumes of data into visual, easy-to-understand dashboards.
+                    What I do: Creating dynamic reports in Power BI/Tableau, visualizing Key Performance Indicators (KPIs), and trend analysis for strategic decision-making.</p>
+            </div>
+            <div class="service-item glass">
+                <h3><i class="fas fa-database service-icon"></i> Data Engineering & ETL</h3>
+                <p>"Accurate, reliable, and structured information." An analysis is only as good as the quality of the data. I handle the collection, cleaning, and organization of information to ensure it is useful and truthful.
+                    What I do: Extraction, Transformation, and Loading (ETL) processes, cleaning disorganized databases, and structuring efficient data models.</p>
+            </div>
+            <div class="service-item glass">
+                <h3><i class="fas fa-cogs service-icon"></i> Workflow Automation</h3>
+                <p>"Boosting productivity by eliminating manual tasks." I apply my programming skills to create scripts that do the heavy lifting for you. If a task is repetitive, it can be automated.
+                    What I do: Python scripts for file processing, automated recurring reports, and web scraping bots for data collection.</p>
             </div>
         </div>
     </section>
 
-    <section id="contacto" class="contact glass fade-in">
-        <div class="container">
-            <h2><i class="fas fa-phone"></i> Contacto</h2>
+    <section id="portafolio" class="fade-in">
+        <h2 class="section-title"><i class="fas fa-folder-open"></i> MY Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item glass">
+                <img src="https://via.placeholder.com/400x250/0a0f0d/10b981?text=Proyecto+1" alt="Proyecto 1">
+                <h3>Dashboard de Ventas</h3>
+                <p>Análisis predictivo utilizando Python y Power BI.</p>
+            </div>
+            <div class="portfolio-item glass">
+                <img src="https://via.placeholder.com/400x250/0a0f0d/10b981?text=Proyecto+2" alt="Proyecto 2">
+                <h3>E-commerce App</h3>
+                <p>Desarrollo Full Stack con Node.js y MySQL.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="fade-in">
+        <div class="container glass">
+            <h2 class="text-center"><i class="fas fa-phone"></i> Contact</h2>
             <div class="contact-buttons">
-                <a href="mailto:[tu-email]" class="contact-btn" target="_blank">
-                    <i class="fas fa-envelope"></i> Correo
-                </a>
-                <a href="https://www.linkedin.com/feed/" class="contact-btn" target="_blank">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://github.com/Michees05" class="contact-btn" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="https://wa.me/[tu-numero-whatsapp]" class="contact-btn" target="_blank">
-                    <i class="fab fa-whatsapp"></i> WhatsApp
-                </a>
+                <a href="mailto:[tu-email]" class="contact-btn" target="_blank"><i class="fas fa-envelope"></i> Correo</a>
+                <a href="https://www.linkedin.com/feed/" class="contact-btn" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Michees05" class="contact-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://wa.me/[numero]" class="contact-btn" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
         </div>
     </section>
 
-    <footer class="glass">
-        <p>&copy; 2026 Miguel Angel Alvarez Sanchez. Todos los derechos reservados. <i class="fas fa-heart"></i></p>
+    <footer class="glass-footer">
+        <p>&copy; 2026 Miguel Angel Alvarez Sanchez. <i class="fas fa-heart" style="color: var(--neon-green);"></i></p>
     </footer>
 
     <script src="script.js"></script>
