@@ -282,6 +282,17 @@ footer {
     transform: translateY(0);
 }
 
+/* Cambios específicos para la sección de contacto */
+/* Subir el título "Contacto" un poco más y quitar espacio */
+.contact h2 {
+    margin-top: -20px; /* Más negativo para quitar más espacio y subirlo */
+}
+
+/* Bajar los botones un poco más abajo del título */
+.contact .contact-buttons {
+    margin-top: 30px; /* Mantener separación */
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
     .nav-links {
@@ -303,9 +314,27 @@ footer {
     }
     section {
         margin: 1rem;
-        padding: 3rem 1rem;
+        padding: 3rem 1rem; /* Padding general reducido */
     }
     .hero h1 {
         font-size: 2rem;
+    }
+    /* Ajustes específicos para contacto en móvil */
+    .contact {
+        padding-top: 2rem; /* Quitar más espacio en la parte superior de la caja */
+    }
+    .contact h2 {
+        font-size: 1.8rem; /* Título más pequeño para móvil */
+        margin-top: -15px; /* Ajuste adicional para quitar espacio en móvil */
+    }
+    .contact .contact-buttons {
+        flex-direction: column; /* Botones en columna para mejor ajuste */
+        gap: 0.8rem; /* Menos gap para ahorrar espacio */
+        margin-top: 20px; /* Separación ajustada */
+    }
+    .contact-btn {
+        width: 100%; /* Botones del mismo tamaño en móvil */
+        padding: 0.6rem 1.2rem; /* Botones más compactos */
+        font-size: 0.9rem; /* Texto más pequeño */
     }
 }
